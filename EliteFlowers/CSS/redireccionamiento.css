@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+/* Estilos*/
+body {
+    
+    background-image: url("https://img.freepik.com/fotos-premium/hermoso-entorno-paisaje-campo-verde_29332-1855.jpg?w=2000");
+    font-family: Verdana;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo formulario */
+form {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* estilo de control*/
+.form-control {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+/* etiqueta control*/
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* estilo entrada de texto*/
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* verificacion */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* boton*/
+button {
+    color: #fff;
+    background-color: #115024;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
